@@ -6,8 +6,9 @@ This is a [Flask](http://flask.pocoo.org/) application running behind uwsgi serv
 
 1. Clone the repo `git clone https://github.com/codeasashu/python-nginx-docker.git`
 2. `cd` into the repo directory. `cd python-nginx-docker`
-3. Run `docker-compose build` and then `docker-compose up -d`
-4. Enjoy the python app.
+3. Create environment file from env-example file. `cp env-example .env`
+4. Run `docker-compose build` and then `docker-compose up -d`
+5. Enjoy the python app.
 
 ## Making changes
 
